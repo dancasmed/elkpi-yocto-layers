@@ -11,7 +11,7 @@
 
     <default sync-j="4"/>
 
-    <project name="poky" path="layers" remote="yocto" revision="f462982ddb6e32052217d44c0c44e8a4df115589" upstream="hardknott"/>
+    <project name="poky" path="layers" remote="yocto" revision="1cefabe0f0a2dd2ca8b6eb83e8e0824b72da941a" upstream="hardknott"/>
     <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="786d3aa313e31a718acc9611ba3adb60573ec458" upstream="hardknott"/>
     <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="43f8f539d40070a70fe89136db89bf5bb1dfe7ed" upstream="hardknott"/>
     <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi-yocto" revision="b4ec97e4eb8e36efd1f7e2f8ae020a9e55cfc239" upstream="hardknott"/>
