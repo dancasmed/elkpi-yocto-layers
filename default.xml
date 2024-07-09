@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-    <remote name="yocto" fetch="git://git.yoctoproject.org"/>
-    <remote name="openembedded" fetch="git://git.openembedded.org"/>
-    <remote name="elk" fetch="git://github.com/elk-audio"/>
-    <remote name="qt" fetch="git://github.com/meta-qt5/"/>
-    <remote name="clang" fetch="git://github.com/kraj"/>
-    <remote name="rpi-yocto" fetch="git://github.com/agherzan"/>
+    <remote name="yocto" fetch="https://git.yoctoproject.org"/>
+    <remote name="openembedded" fetch="https://git.openembedded.org"/>
+    <remote name="elk" fetch="https://github.com/elk-audio"/>
+    <remote name="qt" fetch="https://github.com/meta-qt5/"/>
+    <remote name="clang" fetch="https://github.com/kraj"/>
+    <remote name="rpi-yocto" fetch="https://github.com/agherzan"/>
     <remote name="swupdate" fetch="https://github.com/sbabic/"/>
 
     <default sync-j="4"/>
 
-    <project name="poky" path="layers" remote="yocto" revision="c6334795af795b692d390b9e6eabba452b0b1b4b" upstream="hardknott"/>
-    <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="dc262c52b0b10625bf7a2330e1c4e0fe2d8db6aa" upstream="hardknott"/>
+    <project name="poky" path="layers" remote="yocto" revision="f462982ddb6e32052217d44c0c44e8a4df115589" upstream="hardknott"/>
+    <project name="meta-openembedded" path="layers/meta-openembedded" remote="openembedded" revision="786d3aa313e31a718acc9611ba3adb60573ec458" upstream="hardknott"/>
     <project name="meta-qt5" path="layers/meta-qt5" remote="qt" revision="43f8f539d40070a70fe89136db89bf5bb1dfe7ed" upstream="hardknott"/>
     <project name="meta-raspberrypi" path="layers/meta-raspberrypi" remote="rpi-yocto" revision="b4ec97e4eb8e36efd1f7e2f8ae020a9e55cfc239" upstream="hardknott"/>
-    <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="30df302f6d58ba5ea97cde7d9327591662d3fdad" upstream="hardknott"/>
+    <project name="meta-swupdate" path="layers/meta-swupdate" remote="swupdate" revision="85dd34243d92a33a6ff9215245565f3a5dd4cc99" upstream="hardknott"/>
 
-    <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="9dc5969c9503bdcbc945f89e39c0db3549359bfd" upstream="hardknott"/>
+    <project name="meta-elk" path="layers/meta-elk" remote="elk" revision="f848aa9091c64db5ae31ff63b722f0eced258a64" upstream="hardknott"/>
     <project name="meta-raspberrypi-elk" path="layers/meta-raspberrypi-elk" remote="elk" revision="119708104fd6508e8e0c1b34b1112f31743cba78" upstream="hardknott"/>
     <project name="meta-elkpi" path="layers/meta-elkpi" remote="elk" revision="e6e2ca6ac5a7060a407ceb1c7e3137a64755bcdf" upstream="hardknott"/>
 </manifest>
